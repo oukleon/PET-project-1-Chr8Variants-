@@ -9,7 +9,10 @@
 ![chr8_vcf](https://user-images.githubusercontent.com/54334941/149042219-ad05ef60-14f3-47ec-b774-df4516c12fcc.png)
 - Information about each sample
 ![vcf2](https://user-images.githubusercontent.com/54334941/149042499-17976057-686d-4961-9ace-f084fd30ca49.png)
-- VCF to matrix : Making matrix (rows with samples) *VcftoMatrixChr8.py
+- VCF to matrix : Making matrix (rows with samples) 
+  - Parsing the data, size of 1/100
+  - Transpose the matrix to get samples in rows
+  - Combining a column with population code
 - Dimensionality reduction with PCA (Linear) & t-SNE (Non linear)
   - __PCA__
   
